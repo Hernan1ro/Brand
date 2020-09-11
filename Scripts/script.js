@@ -1,0 +1,3 @@
+alert("Hi niggaaa");
+
+Hi;
