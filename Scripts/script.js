@@ -1,3 +1,3 @@
-alert("Hi niggaaa");
+// alert("Hi niggaaa");
 
 Hi;

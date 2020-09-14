@@ -27,3 +27,27 @@
 #nav a:hover {
   color: white;
 }
+
+/* MAIN SECTION  */
+.main_section {
+  padding: 20%;
+  text-align: center;
+}
+.main_section h1 {
+  font-size: 23px;
+}
+.products {
+  background-image: url(/images/curve.png);
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+}
+.product {
+  padding: 10px;
+}
+.product .content {
+  background-color: white;
+  padding: 20px;
+}
