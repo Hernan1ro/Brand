@@ -38,7 +38,7 @@
 }
 .products {
   background-image: url(/images/curve.png);
-  height: 200px;
+  max-height: 50px;
   background-size: cover;
   background-position: center top;
   padding: 15%;
@@ -46,8 +46,27 @@
 }
 .product {
   padding: 10px;
+  margin-top: -240px;
 }
 .product .content {
   background-color: white;
-  padding: 20px;
+  padding: 15px;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+.img_container {
+  text-align: center;
+}
+.main_button {
+  background-color: #7acc2d;
+  text-decoration: none;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border-radius: 2px;
+}
+.main_button:hover {
+  background-color: #599322;
+  cursor: pointer;
 }
