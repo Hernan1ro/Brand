@@ -1,12 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
+/* ----vaiables ----  */
+:root {
+  --green-color: #7acc2d;
+  --white-color: white;
+  --black-color: #313337;
+  /* --espaciado--  */
+  --space: 10px;
+  /* --box shadow--  */
+  --box: 0px 0 2px 1px #e6e5e9;
+}
+
+/* ----Nav Bar ----  */
 #nav {
-  background-color: #7acc2d;
+  background-color: var(--green-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,12 +30,12 @@
   display: flex;
 }
 #nav ul li {
-  margin-left: 10px;
+  margin-left: var(--space);
   list-style: none;
 }
 #nav a {
   text-decoration: none;
-  color: black;
+  color: var(--black-color);
 }
 
 #nav a:hover {
@@ -45,23 +59,23 @@
   display: flex;
 }
 .product {
-  padding: 10px;
+  padding: var(--space);
   margin-top: -240px;
 }
 .product .content {
-  background-color: white;
+  background-color: var(--white-color);
   padding: 15px;
-  box-shadow: 0 0 1px #c1bcbc;
+  box-shadow: var(--box);
 }
 .img_container {
   text-align: center;
 }
 .main_button {
-  background-color: #7acc2d;
+  background-color: var(--green-color);
   text-decoration: none;
   width: 100%;
   border: none;
-  padding: 10px;
+  padding: var(--space);
   font-size: 17px;
   color: white;
   border-radius: 2px;
