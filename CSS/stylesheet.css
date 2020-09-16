@@ -52,7 +52,7 @@
 }
 .products {
   background-image: url(/images/curve.png);
-  max-height: 50px;
+  height: 50px;
   background-size: cover;
   background-position: center top;
   padding: 15%;
@@ -104,4 +104,34 @@
 .feature img {
   width: 200px;
   margin-bottom: 10px;
+}
+
+/* Mention section  */
+
+.mentions {
+  padding: 10%;
+}
+.mentions h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.mention-container {
+  display: flex;
+  justify-content: space-between;
+}
+.mention {
+  width: 300px;
+  height: 150px;
+  border: solid 1px red;
+  margin: 5px;
+}
+.mention img {
+  width: 300px;
+  margin-bottom: 10px;
+}
+.mention h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
