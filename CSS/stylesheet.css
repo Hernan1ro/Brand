@@ -60,7 +60,7 @@
 }
 .product {
   padding: var(--space);
-  margin-top: -240px;
+  margin-top: -300px;
 }
 .product .content {
   background-color: var(--white-color);
@@ -83,4 +83,25 @@
 .main_button:hover {
   background-color: #599322;
   cursor: pointer;
+}
+
+/* Feactures section  */
+
+.features {
+  padding: 10%;
+}
+.features-container {
+  display: flex;
+  /* padding: inherit; */
+  justify-content: space-evenly;
+}
+.feature {
+  width: 200px;
+  height: 280px;
+  border: solid 1px red;
+  box-sizing: border-box;
+}
+.feature img {
+  width: 200px;
+  margin-bottom: 10px;
 }
