@@ -92,13 +92,11 @@
 }
 .features-container {
   display: flex;
-  /* padding: inherit; */
   justify-content: space-evenly;
 }
 .feature {
   width: 200px;
   height: 280px;
-  border: solid 1px red;
   box-sizing: border-box;
 }
 .feature img {
@@ -109,7 +107,7 @@
 /* Mention section  */
 
 .mentions {
-  padding: 10%;
+  padding: 0% 10% 10% 10%;
 }
 .mentions h1 {
   font-size: 30px;
@@ -124,14 +122,33 @@
 .mention {
   width: 300px;
   height: 150px;
-  border: solid 1px red;
   margin: 5px;
 }
 .mention img {
   width: 300px;
+  height: 150px;
   margin-bottom: 10px;
 }
 .mention h3 {
   font-size: 14px;
   margin-bottom: 5px;
+}
+
+.profile {
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+.one {
+  background-image: url(/images/Mario.jpeg);
+}
+.two {
+  background-image: url(/images/laura.jpg);
+}
+.three {
+  background-image: url(/images/Camila.jpg);
+}
+.four {
+  background-image: url(/images/Jode.jpg);
 }
