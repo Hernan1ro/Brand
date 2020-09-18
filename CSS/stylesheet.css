@@ -98,6 +98,7 @@
   width: 200px;
   height: 280px;
   box-sizing: border-box;
+  box-shadow: var(--box);
 }
 .feature img {
   width: 200px;
@@ -121,8 +122,12 @@
 }
 .mention {
   width: 300px;
-  height: 150px;
+  height: 200px;
   margin: 5px;
+  box-shadow: var(--box);
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
 }
 .mention img {
   width: 300px;
