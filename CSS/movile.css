@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+  body {
+    /* background-color: orange; */
+  }
+  .main_section {
+    padding: 4%;
+  }
+  .product {
+    margin-top: 10px;
+  }
+  .products {
+    flex-direction: column;
+    height: auto;
+  }
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature {
+    margin: 10px;
+  }
+  .mention-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

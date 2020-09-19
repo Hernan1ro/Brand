@@ -157,3 +157,17 @@
 .four {
   background-image: url(/images/Jode.jpg);
 }
+
+/* FOOTER SECTION  */
+footer {
+  background-color: var(--black-color);
+  padding: 20px;
+}
+.copyright span {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.copyright p {
+  color: white;
+}
