@@ -5,6 +5,7 @@
 
 .row {
   display: flex;
+  align-items: center;
 }
 
 .col-1 {
@@ -77,4 +78,14 @@
   .row {
     display: inherit;
   }
+}
+.producto {
+  width: 250px;
+  margin: auto;
+}
+.container p {
+  max-width: 450px;
+}
+h1 {
+  margin-top: 40px;
 }
