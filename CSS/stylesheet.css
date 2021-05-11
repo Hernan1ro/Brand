@@ -5,6 +5,7 @@
   margin: 0;
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 /* ----vaiables ----  */
@@ -15,7 +16,7 @@
   /* --espaciado--  */
   --space: 10px;
   /* --box shadow--  */
-  --box: 0px 0 2px 1px #e6e5e9;
+  --box: 0px 0 2px 3px #e6e5e9;
 }
 
 /* ----Nav Bar ----  */
@@ -170,4 +171,34 @@ footer {
 }
 .copyright p {
   color: white;
+}
+
+/* Venta section */
+
+.modulo-pago-form,
+.modulo-pago {
+  padding: 10px;
+  box-shadow: var(--box);
+  margin-bottom: 20px;
+}
+.form-container {
+  max-width: 900px;
+  margin: auto;
+  margin: 140px auto;
+  background-color: var(--white-color);
+}
+.modulo-pago img {
+  margin: auto;
+  max-width: 200px;
+  display: block;
+}
+.modulo-pago-form .submit {
+  border: 1px solid var(--white-color);
+  box-sizing: border-box;
+  background-color: var(--green-color);
+  color: var(--white-color);
+  font-size: 20px;
+  width: 100%;
+  height: 35px;
+  padding: 0px;
 }

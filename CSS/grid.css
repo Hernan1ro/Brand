@@ -76,8 +76,19 @@
     width: 100%;
     padding: 0px 5px;
   }
+  body {
+    /* background-color: orange; */
+  }
   .row {
     display: flex;
+    /* flex-direction: column; */
+  }
+  .form-container .row {
+    flex-direction: column;
+  }
+  .form-container .col-4 {
+    display: flex;
+    justify-content: center;
   }
 }
 .producto {

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/grid.css" />
+    <link rel="stylesheet" href="/CSS/stylesheet.css" />
+    <link rel="stylesheet" href="/CSS/animations.css" />
+    <link rel="stylesheet" href="/CSS/mobile.css">
+  </head>
+  <body>
+    <!------------------ HERE STARTS NAV SECTION  ------------------->
+      <div id="nav" class="fadeInDown">
+        <div class="brand-image">
+          <img src="/images/logo.png" alt="logo" />
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#">FAQS</a>
+            </li>
+            <li>
+              <a href="#">Producto y descripción</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!----------- HERE STARTS FORM SECTION -------------->
+      <div class="form-container">
+        <div class="row">
+          <div class="col-4">
+            <div class="modulo-pago">
+              <img src="/images/box1.png" alt="Producto de gatitos :3" />
+              <h3>Producto 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate, in at totam minus dolorem nulla?
+              </p>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="modulo-pago-form">
+              <form action="https://www.google.com/">
+                <label for="name">Nombre completo</label><br />
+                <input
+                  type="text"
+                  placeholder="Tu nombre"
+                  name="name"
+                  class="form-control"
+                /><br />
+                <label for="email">E-mail</label><br />
+                <input
+                  type="text"
+                  placeholder="Tu correo"
+                  name="email"
+                  class="form-control"
+                /><br />
+                <label for="phone">Telefono</label><br />
+                <input
+                  type="text"
+                  placeholder="Tu telefono"
+                  name="phone"
+                  class="form-control"
+                /><br />
+                <input type="submit" class="btn submit" value="Confirmar" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---------- HERE STARTS FOOTER SECTION  ------------>
+      <footer>
+        <div class="copyright">
+          <span>Hernan Mercado</span>
+          <p>Dev Professional</p>
+        </div>
+      </footer>
+    </div>
+    <script src="/Scripts/script.js"></script>
+  </body>
+</html>
