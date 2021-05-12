@@ -4,6 +4,10 @@
   }
   .main_section {
     padding: 4%;
+    margin-bottom: 0;
+  }
+  .main_section h1 {
+    font-size: 25px;
   }
   .product {
     margin-top: 10px;
